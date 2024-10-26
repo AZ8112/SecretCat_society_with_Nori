@@ -67,25 +67,36 @@ h1 {
 .openbtn, .createbtn {
     font-size: 20px;
     cursor: pointer;
-    padding: 10px 15px;
-    background-color: rgba(34, 1, 32, 0.974);
+    padding: 10px 100px;
+    background-color: #e20069ce;
     color: rgb(243, 227, 243);
     font-family: Helvetica, sans-serif;
     border: none;
     margin: 5px auto;
     display: block;
-    border-radius: 25% 10%;
+    border-radius: 5px;
     top: 10px;
     border-style: solid;
-    border-width: 2px;
-    border-color: white;
+    border-width: 3px;
+    border-color: #18011dce;
+
+    
 }
 
 /* Ensure the open button stays at the top left */
 .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: rgba(25, 2, 31, 0.974);
+    color: lavender;
+    border-radius: 25% 10%;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e20069ce;
 }
 
 .openbtn:hover, .createbtn:hover {
@@ -95,10 +106,6 @@ h1 {
 /* Center the create button */
 .createbtn {
     margin: 10px auto;
-    background-color: #e20069ce;
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
 }
 
 /* Button styles */
@@ -133,17 +140,15 @@ button:hover {
     left: 50px;
     right: 50px;
     background: linear-gradient(to bottom, rgb(207, 22, 124), rgb(128, 7, 112));
+    border: solid, rgba(40, 1, 58, 0.651), 5px;
     color: rgba(255, 225, 237, 0.959);
     text-decoration: none;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 100px;
     height: 40px;
     font-family: Helvetica, sans-serif;
     text-align: center;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
 }
 
 #bookList a:hover {
@@ -153,11 +158,12 @@ button:hover {
 /* Context menu styles */
 .context-menu {
     position: absolute;
-    background-color: rgb(180, 27, 27);
-    border: 1px solid #ccc;
+    background-color: #e6e4e4;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     width: 120px;
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;
 }
 
 .context-menu div {
@@ -166,5 +172,5 @@ button:hover {
 }
 
 .context-menu div:hover {
-    background-color: #e6e4e4;
+    background-color: rgb(214, 186, 193); 
 }
